@@ -1,4 +1,4 @@
-function maxMin(...arr) {
+function maxMin(arr) {
     let max = Number.MIN_SAFE_INTEGER;
     let min = Number.MAX_SAFE_INTEGER;
     let arrMaxMin = []; 
@@ -20,4 +20,4 @@ function maxMin(...arr) {
     return arrMaxMin;
 } 
 
-console.log(maxMin(-1, 2, 9, 1));
+console.log(maxMin([-1, 2, 9, 1]));
